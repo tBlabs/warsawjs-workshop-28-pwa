@@ -7,7 +7,8 @@ import { IMovie, Movies } from 'src/app/interfaces/IMovie.js';
 })
 export class MoviesService
 {
-  constructor() { }
+  constructor()
+  { }
 
   public GetMovies(): Movies
   {
